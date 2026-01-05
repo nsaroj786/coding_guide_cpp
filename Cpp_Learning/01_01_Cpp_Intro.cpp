@@ -11,7 +11,7 @@
 	source code ->	high-level, what programmer write, undestandable by human, text-editor is used to write the code
 					many .cpp, one main.cpp which calls all executions
 	pre-processor->	removes comments, includes required headers, replaces macro-name by code
-	compiler ->		translates from hogh-level to low-level, 
+	compiler ->		translates from high-level to low-level, 
 					will create .obj file for each .cpp
 	linker ->		links together our code with other libraries or headers, creates executable code
 					will include c++ and other libraries to create an executable program. in windows .exe and in linux no extension
@@ -22,7 +22,7 @@
 /*Structure of a c++ program 
 	Basic components	:
 		keywords		: total 90,  which are reserved words for the programming language. eg: return, int, char
-		identifiers		: alphanumeric charachetrs which are defined by programmer (max 31 latters, start with alphabat or _), eg: cin, cout, main
+		identifiers		: alphanumeric charachetrs which are defined by programmer (max 31 latters, start with alphabat or _), eg: sumOfTwoNums, _localVar
 		punchuation		: ; " " { }
 		statement		: is a comination of keyword, identifier and punchuation
 	Preprocessor directives:

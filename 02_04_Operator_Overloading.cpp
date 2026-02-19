@@ -45,7 +45,7 @@ public:
 /***********************************************************************************/
 
 //Program to create 2 objects of the same class and then compare whether same or not using operator overloading
-int main()
+/*int main()
 {
 	Test t1, t2;
 	cout << "Enter value for t1: ";
@@ -57,5 +57,5 @@ int main()
 	t1 == t2;
 
 	return 0;
-}
+}*/
 /***********************************************************************************/

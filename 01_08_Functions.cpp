@@ -103,7 +103,7 @@ int* find_largest_num(int* int_ptr1, int* int_ptr2);
 
 
 //Main function
-int main()
+/*int main()
 {
 	double num = 100;
 	double num_f = 100.6;
@@ -157,7 +157,7 @@ int main()
 	cout << "\n*largest_ptr: " << *largest_ptr << endl;
 
 	return 0;
-}
+}*/
 /***********************************************************************************/
 
 //function defination or body

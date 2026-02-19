@@ -75,7 +75,7 @@ void Account::print_account_details()
 /***********************************************************************************/
 
 //Main function
-int main()
+/*int main()
 {	
 	//constructor call during object creation
 	Account a1;				//construcor with no args is called, destructor will be called before end of the scope of the object
@@ -87,5 +87,5 @@ int main()
 	Account* acc_ptr2 = new Account(102, "Ambika",500.0);
 
 	return 0;
-}
+}*/
 /***********************************************************************************/

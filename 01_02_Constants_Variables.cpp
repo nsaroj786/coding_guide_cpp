@@ -56,7 +56,7 @@ using namespace std;
 int age = 10;
 
 //Program to calculate area of a room
-int main()
+/*int main()
 {
 	int age;		//declaration, without initialization its value will be some garbage.
 	age = 18;
@@ -71,5 +71,5 @@ int main()
 	room_area = room_width * room_length;
 	cout << "The room area is : "<< room_area << "sq feet" <<endl;
 	return 0;
-}
+}*/
 

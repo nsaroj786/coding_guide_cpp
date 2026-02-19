@@ -32,7 +32,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+/*int main()
 {
 	int num1 = 10;
 	int num2;
@@ -65,7 +65,7 @@ int main()
 
 
 	return 0;
-}
+}*/
 
 
 

@@ -103,7 +103,7 @@ void display_shallow(Shallow s) {
 }
 
 /***********************************************************************************/
-int main()
+/*int main()
 {
 	Account a3(101, "Anil", 10500.0);	//COnstructor with all args is called
 	//Object by referencing to another object by using copy constructor
@@ -116,5 +116,5 @@ int main()
 	Shallow obj2 = obj1;
 
 	return 0;
-}
+}*/
 

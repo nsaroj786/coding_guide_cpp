@@ -1,0 +1,1 @@
+// weak vs shared pointer -> shared pointer has ownership of the object, weak pointer does not have ownership, it just observes the object, it can not access the object directly, it needs to convert to shared pointer to access the object, it is used to break circular reference in shared pointer

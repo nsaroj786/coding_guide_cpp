@@ -1,0 +1,1 @@
+// smaprt pointer as member of class

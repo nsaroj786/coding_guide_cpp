@@ -9,8 +9,9 @@ Benifits:
     - Avoid manual memory management errors, all features by taking care of memory issues are implemented as class so objects can be created
 More Info:
     - unique_ptr owns the object it points to. Only one unique_ptr can own an object at a time.
-    - Copy constructor is not allowed for unique_ptr, as it intended to not create 2 pointers dto the same address
-    
+    - Copy constructor is not allowed for unique_ptr, as it intended to not create 2 pointers to the same address
+    - So if required, ownership can be transferrded from one to another unique pointer by using std::move()
+    - ptr.get(), ptr2.reset() 
 *******************************************************************************/
 
 #include <iostream>

@@ -17,7 +17,7 @@ int main() {
     std::cout<<a<<std::endl;
     
     [=]()->void {std::cout<<a<<","<<b<<std::endl;}(); // not allowed a=10; read only, == means all variabls of main function by value
-    [&]()->void {std::cout<<a<<","<<b<<std::endl; a=20;}(); // not allowed a=10; read only, & means all variabls of main function by ref
+    [&]()->void {std::cout<<a<<","<<b<<std::endl; a=20;}(); // allowed a=10 as variales of main by reference
     std::cout<<a<<std::endl;
     [a]()->void {std::cout<<a<<","<<std::endl;}(); // only mentioned args accessible, error for cout<<b
     
@@ -26,3 +26,4 @@ int main() {
     
     return 0;
 }
+

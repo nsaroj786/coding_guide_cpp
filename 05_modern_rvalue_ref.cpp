@@ -10,7 +10,17 @@ void print(int& x) {
 void print(int&& x) {
     std::cout << "Rvalue reference\n";
 }
-    
+
+void printString(std::string &name)
+{
+    std::cout<< "In lvalue: "<< name<<std::endl;
+}
+
+void printString(std::string &&name)
+{
+    std::cout<< "In rvalue: "<< name<<std::endl;
+}
+
 int main() {
     // lvalue: Has a name, a persistent memory address, Can appear on the left side of assignment
     // lvalue lasts extended period of time
@@ -38,5 +48,12 @@ int main() {
     print(z); // lvalue version
     print(10); // rvalue version
 
+    std::string firstName = "Saroj";
+    std::string secName = "Kumar";
+    std::string fullName = firstName+secName;
+    printString(fullName);            //In lvalue: SarojKumar
+    printString(firstName+secName);    //In rvalue: SarojKumar
+
     return 0;
 }
+
